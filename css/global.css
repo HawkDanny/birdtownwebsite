@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -75,4 +76,39 @@ body {
 .content-text .subscribe p {
     margin: 0px;
     margin-top: 5px;
+}
+
+.mobile-images {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .web-images {
+        display: none;
+    }
+
+    .mobile-images {
+        width: 477px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .mobile-images img {
+        width: 30%;
+        height: auto;
+    }
+
+    .spacer {
+        min-width: 50px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .container {
+        height: inherit;
+    }
 }
