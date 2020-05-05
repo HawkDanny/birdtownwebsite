@@ -83,29 +83,51 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+
+    .content-text {
+        max-width: 300px;
+        min-width: 100px;
+        justify-content: start;
+    }
+
+    .content-text h1 {
+        font-size: 55px;
+        margin: 0px;
+        margin-left: -4px;
+        font-family: 'Solway', serif;
+    }
+
+    .content-text h5 {
+        font-size: 12.6px;
+        margin: 0px;
+        font-family: 'Solway', serif;
+    }
+
+    #links {
+        margin: 0px;
+        font-size: 12px;
+    }
+
     .web-images {
         display: none;
     }
 
     .mobile-images {
-        width: 477px;
+        max-width: 300px;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         margin-bottom: 100px;
+        margin-top: 50px;
     }
 
     .mobile-images img {
-        width: 30%;
+        width: 35%;
         height: auto;
     }
 
     .spacer {
         min-width: 50px;
-    }
-
-    .content {
-        flex-direction: column;
     }
 
     .container {
