@@ -1,0 +1,58 @@
+body {
+    font-family: 'Solway', serif;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.content-text {
+    margin: 50px;
+    max-width: 377px;
+    min-width: 377px;
+    height: 521px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-text h1 {
+    font-size: 75px;
+    margin: 0px;
+    margin-left: -4px;
+}
+
+.content-text h5 {
+    font-size: 17.3px;
+    margin: 0px;
+    margin-top: -18px;
+}
+
+#description {
+    margin: 0px;
+    margin-top: 50px;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.content-text .subscribe {
+    margin: 0px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.content-text .subscribe p {
+    margin: 0px;
+    margin-top: 5px;
+}
