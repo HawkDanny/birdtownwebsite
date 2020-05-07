@@ -82,6 +82,11 @@ body {
     display: none;
 }
 
+.spacer {
+    display: none;
+    min-height: 25vh;
+}
+
 @media only screen and (max-width: 800px) {
 
     .content-text {
@@ -132,5 +137,9 @@ body {
 
     .container {
         height: inherit;
+    }
+
+    .spacer {
+        display: block;
     }
 }
