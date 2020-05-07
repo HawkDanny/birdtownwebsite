@@ -80,6 +80,7 @@ body {
 
 .mobile-images {
     display: none;
+    z-index: -1;
 }
 
 .spacer {
