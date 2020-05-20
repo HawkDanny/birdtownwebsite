@@ -3,55 +3,32 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
 .content {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    margin: auto;
+    max-width: 800px;
 }
 
-.content-text {
-    margin: 50px;
-    max-width: 377px;
-    min-width: 377px;
-    height: 521px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
+.title {
     font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
 }
 
-.content-text h1 {
-    font-size: 75px;
+.title h1 {
+    font-size: 158px;
     margin: 0px;
     margin-left: -4px;
     font-family: 'Solway', serif;
 }
 
-.content-text h5 {
-    font-size: 17.3px;
+.title h5 {
+    font-size: 36.5px;
     margin: 0px;
+    margin-top: -15px;
     font-family: 'Solway', serif;
-}
-
-#description {
-    margin: 0px;
-    margin-top: 25px;
-    font-size: 16px;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 #links {
     margin: 0px;
-    font-size: 16px;
 }
 
 #links a {
@@ -67,80 +44,150 @@ body {
     color: inherit;
 }
 
-.content-text .subscribe {
-    margin: 0px;
-    margin-top: 25px;
-    font-size: 16px;
+.thumbnail {
+    border: 7px solid black;
+    width: 100%;
+    float: left;
+    height: auto;
+    cursor: pointer;
 }
 
-.content-text .subscribe p {
+.video {
+    margin-top: 50px;
+    width: 779.88px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 446px;
+    display: none;
+}
+
+.info {
+    clear: both;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 50px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 600px;
+}
+
+.info p {
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.info h3 {
+    font-family: 'Solway', serif;
+    margin: 0px;
+}
+
+.subscribe {
+    margin: 0px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.subscribe p {
     margin: 0px;
     margin-top: 5px;
 }
 
-.mobile-images {
-    display: none;
-    z-index: -1;
+.screenshots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
 
-.spacer {
-    display: none;
-    min-height: 25vh;
+.screenshots img {
+    max-width: 370px;
+    padding: 10px;
 }
+
+
+
 
 @media only screen and (max-width: 800px) {
 
-    .content-text {
-        max-width: 300px;
-        min-width: 100px;
-        justify-content: start;
+    .content {
+        max-width: 600px;
+        margin: auto;
+        padding: 25px;
     }
 
-    .content-text h1 {
-        font-size: 55px;
+    .title {
+        margin-top: 50px;
+    }
+
+    .title h1 {
+        font-size: 110px;
         margin: 0px;
         margin-left: -4px;
         font-family: 'Solway', serif;
     }
 
-    .content-text h5 {
-        font-size: 12.6px;
+    .title h5 {
+        font-size: 24px;
         margin: 0px;
+        margin-top: -10px;
+    }
+
+    .info {
+        margin-bottom: 50px;
+    }
+
+    .info p {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .info h3 {
         font-family: 'Solway', serif;
-    }
-
-    #links {
         margin: 0px;
+    }
+
+    .video {
+        width: 100%;
+        margin-left: -4px;
+    }
+
+    .video iframe {
+        height: 337px;
+    }
+
+    .thumbnail {
+        border: 4px solid black;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+
+    .title h1 {
+        font-size: 75px;
+    }
+
+    .title h5 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .title h5 {
         font-size: 12px;
-    }
-
-    .web-images {
-        display: none;
-    }
-
-    .mobile-images {
-        max-width: 300px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 100px;
-        margin-top: 50px;
-    }
-
-    .mobile-images img {
-        width: 35%;
-        height: auto;
-    }
-
-    .spacer {
-        min-width: 50px;
-    }
-
-    .container {
-        height: inherit;
-    }
-
-    .spacer {
-        display: block;
     }
 }
