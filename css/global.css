@@ -1,6 +1,14 @@
 body {
     margin: 0px;
     overflow-x: hidden;
+    background-image: url("../media/birdtown_homepage.png");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    width: 100vw;
+    height: 100vh;
 }
 
 a {
@@ -34,24 +42,23 @@ a {
 }
 
 .content {
-    margin: auto;
-    max-width: 800px;
+    max-width: 507px;
+    padding: 0px 0px 50px 50px;
 }
 
 .title {
     font-family: 'Open Sans', sans-serif;
-    margin-top: 100px;
 }
 
 .title h1 {
-    font-size: 158px;
+    font-size: 100px;
     margin: 0px;
     margin-left: -4px;
     font-family: 'Solway', serif;
 }
 
 .title h5 {
-    font-size: 36.5px;
+    font-size: 23px;
     margin: 0px;
     margin-top: -15px;
     font-family: 'Solway', serif;
@@ -74,36 +81,14 @@ a {
     color: inherit;
 }
 
-.thumbnail {
-    border: 7px solid black;
-    width: 100%;
-    float: left;
-    height: auto;
-    cursor: pointer;
-}
-
-.video {
-    margin-top: 50px;
-    width: 779.88px;
-}
-
-.video iframe {
-    width: 100%;
-    height: 446px;
-    display: none;
-}
-
 .info {
     clear: both;
     font-family: 'Open Sans', sans-serif;
     margin: auto;
     margin-top: 25px;
-    padding-top: 50px;
-    margin-bottom: 200px;
     font-size: 20px;
     text-align: justify;
     text-justify: inter-word;
-    max-width: 600px;
 }
 
 .info p {
@@ -111,42 +96,18 @@ a {
     margin-bottom: 15px;
 }
 
-.info-desc {
-    margin-bottom: 50px;
-}
-
 .info h3 {
-    font-family: 'Solway', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
     margin: 0px;
+    flex: 0 1 100%;
 }
 
 .subscribe {
     margin: 0px;
-    margin-top: 50px;
     font-size: 20px;
 }
-
-.subscribe p {
-    margin: 0px;
-    margin-top: 5px;
-}
-
-.screenshots {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: space-around;
-    flex-wrap: wrap;
-    margin: 10px;
-    margin-top: 50px;
-    margin-bottom: 200px;
-}
-
-.screenshots img {
-    max-width: 370px;
-    padding: 10px;
-}
-
 
 
 
