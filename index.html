@@ -51,7 +51,7 @@
         <div class="info">
             <div class="subscribe">
                 <h3>bird town is in development, sign up for our newsletter below to hear about news and updates as we make the game</h3>
-                <form action="https://tinyletter.com/birdtown" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/birdtown', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail"></label></p><p><input type="text" style="width:140px;" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" id="submit" style="margin-top: 5px;" value="Subscribe" /></form>
+                <form action="https://tinyletter.com/birdtown" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/birdtown', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail"></label></p><p><input id="youremail" type="text" style="width:140px;" name="email" value="your email" id="tlemail" onclick="document.getElementById('youremail').style.color = '#000'; if (value == 'your email') { value = '';}"/></p><input type="hidden" value="1" name="embed"/><input type="submit" id="submit" style="margin-top: 5px;" value="Subscribe" /></form>
             </div>
         </div>
     </div>
