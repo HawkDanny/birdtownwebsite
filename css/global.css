@@ -4,6 +4,7 @@ body {
     background-image: url("../media/birdtown_homepage.png");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: left;
