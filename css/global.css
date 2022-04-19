@@ -44,7 +44,9 @@ a {
 
 .content {
     max-width: 507px;
-    margin: 50px 0px 0px 50px;
+    padding: 25px;
+    margin: 25px;
+    background-color: white;
 }
 
 .title {
